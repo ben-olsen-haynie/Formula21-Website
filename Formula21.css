@@ -1,0 +1,184 @@
+html body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: silver;
+}
+
+
+
+.header-container {
+    display: flex;
+    height: 620px;
+    background-color: silver;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url("images/ChevyImg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    /* background-position: center; */
+    
+}
+.header-info {
+    background-color: silver;
+    text-align: right;
+    height: 40px;
+    padding-top: 10px;
+}
+.phone-number, #address {
+    display: inline-block;
+    margin-right: 40px;
+    font-size: x-large;
+}
+#address:hover {
+    cursor: pointer;
+}
+/* For previouse header with logo,img,message */
+.header-logo {
+    border: solid rgb(228, 0, 0) 10px;
+    border-radius: 200px;
+    overflow: hidden;
+    width: auto;
+    height: auto;
+    min-width: 180px;
+}
+/* .header-background {
+    max-width: 800px;
+    width: auto;
+    height: auto;
+    min-width: 200px;
+} */
+/* .header-message {
+    border: solid rgb(228, 0, 0);
+    border-radius: 50px;
+    color: white;
+    min-width: 160px;
+    max-width: 300px;
+    padding: 5px;
+    font-size: xx-large;
+} */
+
+.services {
+    font-size: 2rem;
+    background-color: silver;
+    /* border: solid rgb(228, 0, 0) 10px; */
+    height: 200px;
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
+.services center {
+    font-weight: bold;
+
+}
+.service-buttons {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.service-buttons div:hover {
+    cursor: pointer;
+}
+.service-buttons div {
+    font-weight: bold;
+    margin: 12px;
+    font-size: 2rem;
+    display: inline-block;
+    border: solid black 5px;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+.service-flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+.included {
+    margin-top: -35px;
+    padding: 0px;
+    font-size: xx-large;
+    /* border: solid green 2px; */
+    height: 250px;
+    /* width: 350px; */
+    
+}
+.included ul li {
+    padding-left: 15px;
+}
+.description {
+    /* border: solid green 2px; */
+    max-width: 500px;
+    font-size: xx-large;
+    text-align: left;
+    
+}
+.servicesImgs {
+    overflow: hidden;
+    /* border: solid green 2px; */
+    max-height: 400px;
+    max-width: 400px;
+    margin-top: -100px;
+}
+
+#autoGlassHidden {
+    display: none;
+    height: 400px;
+    border-radius: 100px;
+    background-color: grey;
+    overflow: hidden;
+    
+}
+#windowTintHidden {
+    display: none;
+    height: 400px;
+    border-radius: 100px;
+    background-color: grey;
+    overflow: hidden;
+}
+#chipRepairHidden {
+    display: none;
+    height: 400px;
+    border-radius: 100px;
+    background-color: grey;
+    overflow: hidden;
+}
+#headlightHidden {
+    display: none;
+    height: 400px;
+    border-radius: 100px;
+    background-color: grey;
+    overflow: hidden;
+}
+#windowRegulatorsHidden {
+    display: none;
+    height: 400px;
+    border-radius: 100px;
+    background-color: grey;
+    overflow: hidden;
+}
+.about-f21 {
+    margin-top: 100px;
+    font-size: x-large;
+    display: flex;
+    justify-content: space-around;
+    align-items: top;
+    margin-bottom: 30px;
+}
+.open-hours ul {
+    display: inline-block;
+}
+.open-hours ul li {
+    list-style-type: none;
+}
+.about-f21-bio {
+
+    padding-left: 10px;
+    padding-top: 10px;
+    border-radius: 10px;
+    height: 200px;
+    max-width: 300px;
+}

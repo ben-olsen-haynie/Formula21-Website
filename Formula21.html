@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>F21</title>
+    <link rel="stylesheet" href="Formula21.css" />
+    
+  </head>
+  <body>
+    <div class="header-info">
+      <div class="phone-number">(520)-891-0109</div>
+      <div id="address">460 W Roger Rd #105 Tucson, AZ 85705</div>
+    </div>
+    <div class="header-container">
+      <!-- PREVIOUSE HEADER WITH THE LOGO,IMG,MESSAGE -->
+      <!-- <img src="images/f21Logo.jpeg" class="header-logo header-flex" /> -->
+      <!-- <img
+        src="images/headerImgChevy.jpg"
+        class="header-background header-flex"
+      />
+      <div class="header-message header-flex">
+        <h1>
+          <center>Need Your <br />Windshield Replaced?</center>
+        </h1> -->
+      </div>
+    </div>
+
+    <div class="services">
+      <center>Our Services</center>
+      <br />
+
+      <div class="service-buttons">
+        <!-- tried to get it to work on the first click by adding
+        an eventListener to the div rather than onclick. didn't fix it. -->
+        <div class="service-button" onclick="unHiddenGlass()">Auto Glass</div>
+        <div class="service-button" onclick="unHiddenTint()">Window Tint</div>
+        <div class="service-button" onclick="unHiddenChip()">Chip Repair</div>
+        <div class="service-button" onclick="unHiddenHeadlight()">
+          Headlight Restoration
+        </div>
+        <div class="service-button" onclick="unHiddenRegulators()">
+          Window Regulators
+        </div>
+      </div>
+    </div>
+    <div id="autoGlassHidden">
+      <h1><center>Auto Glass</center></h1>
+      <br />
+      <div class="service-flex-container">
+        <div class="included">
+          <center><strong>Included</strong></center>
+          <ul>
+            <li>Price: Varies by Model</li>
+            <li>35 minuets - 1 hour</li>
+            <li>Safety Callibratios</li>
+            <li>Mobile Installations</li>
+          </ul>
+        </div>
+        <div class="description">
+          <br />
+          We Will install your glass with Uritan All Express 30 and literally will not cut corners.
+           We do it right.
+        </div>
+        <div class="servicesImgs"><img src="images/gr86img.jpg" alt="" /></div>
+      </div>
+    </div>
+    <div id="windowTintHidden">
+      <h1><center>Window Tint</center></h1>
+      <br />
+      <div class="service-flex-container">
+        <div class="included">
+          <center>Included</center>
+          <ul>
+            <li>Price: $329-459</li>
+            <li>Time: 4 hours</li>
+            <li>Types: Carbon and Ceramic</li>
+            <li>In shop istallation</li>
+          </ul>
+        </div>
+        <div class="description">
+          <br />
+          We can install cabon tint for $329 and ceramic tint for $459 with only 4 hours installation time.
+        </div>
+        <div class="servicesImgs">
+          <img src="images/yukonSmallerImg.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+    <div id="chipRepairHidden">
+      <h1><center>Chip Repair</center></h1>
+      <br />
+      <div class="service-flex-container">
+        <div class="included">
+          <center>Included</center>
+          <ul>
+            <li>Price: $35</li>
+            <li>Time: 15 minuets</li>
+            <li>Mobile repairs</li>
+          </ul>
+        </div>
+        <div class="description">
+          <br />
+          We offer Mobile windshield chip repairs for $35 and any additional chips are $10.
+        </div>
+        <div class="servicesImgs">
+          <img src="images/LexusImg.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+    <div id="headlightHidden">
+      <h1><center>Headlight Restoration</center></h1>
+      <br />
+      <div class="service-flex-container">
+        <div class="included">
+          <center>Included</center>
+          <ul>
+            <li>Price: $25-40</li>
+            <li>Time: 45 minuets</li>
+            <li>In shop repairs</li>
+          </ul>
+        </div>
+        <div class="description">
+          <br />
+          We restore headlights in our shop for $25-40 in 45 minuets. We use special kit(coming soon)
+        </div>
+        <div class="servicesImgs">
+          <img src="images/gr86img.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+    <div id="windowRegulatorsHidden">
+      <h1><center>Window Regulators</center></h1>
+      <br />
+      <div class="service-flex-container">
+        <div class="included">
+          <center>Included</center>
+          <ul>
+            <li>Price: Call for estimate</li>
+            <li>Time: 40 minuets</li>
+            <li>Mobile installations</li>
+          </ul>
+        </div>
+        <div class="description">
+          <br />
+          Is your window stuck. That's okay. We install Window Regulators too.
+           Price depends on model so give us a call and we'll do it in 40 minuets in the shop or at your home.
+        </div>
+        <div class="servicesImgs">
+          <img src="images/yukonSmallerImg.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+    <div class="about-f21">
+      <div class="open-hours">
+        <center>Business Hours</center>
+        <ul>
+          <li>Monday</li>
+          <li>Tuesday</li>
+          <li>Wednesday</li>
+          <li>Thursday</li>
+          <li>Friday</li>
+          <li>Saturday</li>
+          <li>Sunday</li>
+        </ul>
+        <ul>
+          <li>8am-5pm</li>
+          <li>8am-5pm</li>
+          <li>8am-5pm</li>
+          <li>8am-5pm</li>
+          <li>8am-5pm</li>
+          <li>Closed</li>
+          <li>Closed</li>
+        </ul>
+      </div>
+      <div class="insurances">
+        <center>We Accept Insurance</center>
+        <ul>
+          <li>Geico</li>
+          <li>AAA</li>
+          <li>State Farm</li>
+          <li>Familly Insurance</li>
+          <li>And Many More!</li>
+        </ul>
+      </div>
+      <div class="location">
+        <center>Location</center>
+        <br />
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3373.2105641350427!2d-110.98135617514507!3d32.27931634481571!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86d673e93841d4eb%3A0x2028d0e15611809d!2s460%20W%20Roger%20Rd%20%23105%2C%20Tucson%2C%20AZ%2085705!5e0!3m2!1sen!2sus!4v1715811938586!5m2!1sen!2sus" width="300" height="300" style="border: solid grey 3px; border-radius: 10px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <div class="about-f21-bio">
+        <center>BIO</center>
+        <br />
+        F21 Auto Glass has been satisfying many customers since 2019!
+         They have many installers, some of which have been installing glass for 15 years!
+          It is Familly own and run offering Glass, Tint, Chip Repair, Headlight Restoration and even Window Regulators.
+           The best service with a smile.
+      </div>
+    </div>
+  </body>
+  <script src="Formula21.js"></script>
+</html>
+<!-- TO DO
+Mobile responsive sizing 
+Remove other open divs when you open a new one
+
+-->
+
+<!-- TO ASK CLIENT
+Good phone# for top of webpage. Do you have a front desk phone? 
+    :520-891-0109
+Good Address for top of webpage.
+    :460 w roger road suit 105
+What Types of Insurance do you accept?
+    :all accepted, geico state farm familly insuarace AAA
+Do you have pictures during instalations:
+Glass,Tint,Chip Repair,Headlight Restoration, Window Regulators
+    :                                                              will send pictures
+Any Bio-description for the company?
+    :installing glass for 15 years 
+     bussiness established and family owned since 2019
+
+Auto glass  
+    price:  call for estimate
+    time: 35-hour
+    description: no cutting corners, uritan all express 30
+Tint
+    price: carbon tint regular sedan 329 ceramin: 459 
+    time: 4hours
+    different types: carbon and ceramic tint for uv
+    Mobile Y/N: at the shop
+    description:                                                  multiple density options?
+Chip Repair
+    Price per chip: 35 + 10 for additional chips
+    Time: 15-20 min
+    Mobile Y/N: yes
+    description: Generic We'll fill your chip desc.
+Headlight Restoration
+    Price: 25-40
+    Time: 45min
+    Mobile Y/N: no
+    description: we use special kit sand and clear.               Send picture of Kit or Name
+Window Regulators
+    Price: call for estimate based on modle
+    Time: 40min 
+    Types?:NA
+    Mobile Y/N: yes
+
+    
+
+-->
