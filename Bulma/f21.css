@@ -30,6 +30,8 @@
 .original-header-img {
   max-height: 570px;
   overflow-y: hidden;
+  border-bottom: 2px solid rgba(255, 0, 0, 0.747);
+  border-top: 2px solid rgba(255, 0, 0, 0.747)
 }
 #tikTokClick:hover {
   cursor: pointer;
@@ -40,10 +42,10 @@
 .service-tab-text {
   color: rgb(157, 3, 3);
 } */
-/* body {
+.cool-background {
   background-image: url("images/red-spot-background.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
 
-} */
+}
