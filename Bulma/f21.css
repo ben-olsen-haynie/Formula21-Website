@@ -1,0 +1,28 @@
+.center-page {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .keep-mobile {
+    max-width: 105%;
+  }
+  .header-img {
+    max-height: 520px;
+    overflow-y: hidden;
+  }
+  #tikTokClick:hover {
+    cursor: pointer;
+  }
+  /* .service-tabs ul li {
+    color: red;
+  }
+  .service-tab-text {
+    color: rgb(157, 3, 3);
+  } */
+  body {
+    background-image: url("images/red-spot-background.png");
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-attachment: fixed;
+
+
+}
