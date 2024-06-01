@@ -1,28 +1,49 @@
 .center-page {
-    margin-left: 5%;
-    margin-right: 5%;
-  }
-  .keep-mobile {
-    max-width: 105%;
-  }
-  .header-img {
-    max-height: 520px;
-    overflow-y: hidden;
-  }
-  #tikTokClick:hover {
-    cursor: pointer;
-  }
-  /* .service-tabs ul li {
-    color: red;
-  }
-  .service-tab-text {
-    color: rgb(157, 3, 3);
-  } */
-  body {
-    background-image: url("images/red-spot-background.png");
-    background-repeat: no-repeat;
-    /* background-size: cover; */
-    background-attachment: fixed;
-
-
+   margin-left: 5%;
+  margin-right: 5%;
 }
+.keep-mobile {
+  max-width: 105%;
+}
+
+.header {
+  min-height: 400px;
+  max-height: 600px;
+  background-image: url("images/AllThreeHeaderImgs.PNG");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header-imgs {
+  display: flex;
+  justify-content: space-between;
+  height: 500px;
+  overflow: hidden;
+  align-items: center;
+}
+.header-imgs div {
+  padding: 0;
+  margin: 0;
+  max-height: 500px;
+}
+
+
+.original-header-img {
+  max-height: 570px;
+  overflow-y: hidden;
+}
+#tikTokClick:hover {
+  cursor: pointer;
+}
+/* .service-tabs ul li {
+  color: red;
+}
+.service-tab-text {
+  color: rgb(157, 3, 3);
+} */
+/* body {
+  background-image: url("images/red-spot-background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+} */
