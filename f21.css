@@ -1,0 +1,74 @@
+.center-page {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.keep-mobile {
+  max-width: 105%;
+}
+.header {
+  min-height: 400px;
+  max-height: 600px;
+  background-image: url("images/AllThreeHeaderImgs.PNG");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header-imgs {
+  display: flex;
+  justify-content: space-between;
+  height: 500px;
+  overflow: hidden;
+  align-items: center;
+}
+.header-imgs div {
+  padding: 0;
+  margin: 0;
+  max-height: 500px;
+}
+
+/* .header-grid-container {
+  display: grid;
+  height: auto;
+  width: auto;
+  border-radius: 4px;
+  border: solid yellow 4px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.header-grid-container .flex-item {
+  border: solid green 5px;
+} */
+
+
+.original-header-img {
+  margin-left: auto;
+  margin-right: auto;
+  max-height: 537px;
+  overflow-y: hidden;
+  max-width: 2000px;
+  border-radius: 4px;
+  /* padding: 0 10; */
+  /* border-bottom: 2px solid rgba(255, 0, 0, 0.747); */
+  /* border-top: 2px solid rgba(255, 0, 0, 0.747) */
+}
+.service-img {
+  max-width: 300px;
+}
+
+#tikTokClick .image img{
+  border-radius: 10px;
+}
+#tikTokClick:hover {
+  cursor: pointer;
+}
+.image-border {
+  max-height: 550px;
+  padding: 0;
+  border: white 3px;
+  border-radius: 7px;
+  overflow: hidden;
+}
+.navbar-logo {
+  min-height: 50px;
+  
+  border-radius: 2px;
+  overflow: hidden;
+}
